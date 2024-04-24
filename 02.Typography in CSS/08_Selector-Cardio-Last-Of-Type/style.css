@@ -1,0 +1,3 @@
+article > p:nth-last-of-type(1) {
+    background-color: yellow;
+}

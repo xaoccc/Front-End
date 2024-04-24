@@ -1,0 +1,3 @@
+article > span:nth-last-child(1) {
+    color: red;
+}
