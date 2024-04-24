@@ -1,0 +1,4 @@
+article > span:nth-child(1) {
+    font-weight: bold;
+    color: red;
+}
