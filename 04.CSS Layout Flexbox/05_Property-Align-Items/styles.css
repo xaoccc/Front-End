@@ -3,6 +3,8 @@
   background-color: DodgerBlue;
   width: 300px;
   height: 200px;
+  display: flex;
+  align-items: center;
 }
 
 .flex-container > div {
