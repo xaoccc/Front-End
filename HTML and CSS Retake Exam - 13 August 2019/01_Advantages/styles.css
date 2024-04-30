@@ -1,0 +1,64 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 100vh;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.75rem;
+}
+
+.heading {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h3 {
+    padding: 10px 20px;
+    margin: 0;
+    background-color: rgb(66, 171, 248);
+    color: white;
+    border-radius: 10px 10px 0 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.container div:nth-last-child(1) {
+    border-radius: 0 0 10px 10px;
+}
+
+.container div:nth-child(1) {
+    border-top-left-radius: 10px;
+    margin-top: 0;
+}
+
+.advantages-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+    margin: 1px 0;
+    background-color: rgb(240, 240, 240);
+}
+
+.icon {
+    font-size: 20px;
+    color: rgb(126, 211, 126);
+    margin-right: 20px;
+}
+
+.href-container {
+    display: flex;
+    align-items: center;
+}
