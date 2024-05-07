@@ -8,14 +8,20 @@ body, div, span, h1, h2, h3, h4, h5, h6, p {
 	vertical-align: baseline;
 }
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, section {
 	display: block;
 }
 body {
 	line-height: 1;
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
 }
 ol, ul {
 	list-style: none;
+}
+a {
+	text-decoration: none;
 }
 blockquote, q {
 	quotes: none;
@@ -29,3 +35,81 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Custom styles */
+body {
+	font-family: 'Lato', "Arial", "Helvetica", sans-serif;
+}
+.header-container, .header-left, .header-right, nav, ul, footer, .footer-left {
+	display: flex;
+	align-items: center;
+	background-color: #234465;
+}
+
+/* Header */
+.logo {
+	height: 45px;
+}
+
+.header-container, footer {
+	justify-content: space-between;
+	padding: 0 15em;
+}
+
+.header-right {
+	justify-content: space-between;
+	padding-right: 5em;
+}
+
+ul {
+	gap: 2em;
+}
+
+.navbar > li > a, .fa-search {	
+	color: #8DA1B2;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.fa-search {
+	font-size: 1.5rem;
+}
+
+.button {
+	background-color: #FFA000;	
+	padding: 0.5em 1.5em;
+	border-radius: 20px;
+}
+
+.button a {
+	color: white;
+	font-weight: 700;
+}
+
+/* Main */	
+
+
+
+/* Footer */
+footer {
+	margin-top: auto;
+}
+
+.footer-left, .footer-left > ul, .footer-midde-left, .footer-midde-left > ul  {
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+footer ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+footer h3 {
+	color: #FFA000;
+}
+
+footer a {
+	color: white;
+}
+
