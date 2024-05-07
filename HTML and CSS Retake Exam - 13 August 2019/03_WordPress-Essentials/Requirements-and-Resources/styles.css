@@ -1,5 +1,5 @@
 /* HTML5 reset */
-body, div, span, h1, h2, h3, h4, h5, h6, p {
+body, div, span, h1, h2, h3, h4, h5, h6, p, ul {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -54,7 +54,7 @@ body {
 
 .header-container {
 	justify-content: space-between;
-	padding: 0 15em;
+	padding: 1em 15em;
 }
 
 .header-right {
@@ -88,6 +88,80 @@ header ul {
 }
 
 /* Main */	
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+.background-img {
+	background-image: url(images/wordpress.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 700px;
+    transform: rotate(30deg);
+    opacity: 0.5;
+    position: absolute;
+	top: 200px;
+	left: -50px;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: left;
+	margin: 0 15em;
+}
+
+.main-nav ul {
+	background-color: white;
+	gap: 1.75em;
+}
+
+.main-nav ul li a {
+	font-weight: 700;
+	color: #525028;
+}
+
+.main-nav ul li {
+	padding: 1em 0;
+}
+
+.main-nav ul li a:focus {
+	color: #162B40;	
+	outline: none;
+}
+  
+
+.main-nav ul li:focus-within {
+	border-bottom: 2px solid #162B40;
+}
+
+.main-header {
+	text-align: center;
+		
+	background-image: url('images/navbar-bg-pattern.png');
+	
+	  
+
+	
+	width: 100%;
+}
+
+.main-header > div {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.main-header > div > ul {
+	gap: 1em;
+	
+}
+
+h1 {
+	color: white;
+	font-size: 2.5rem;
+	padding: 1em 0;
+}
 
 
 
