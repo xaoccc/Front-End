@@ -243,9 +243,10 @@ hr {
 
 .main-articles article:nth-child(1) div:nth-child(2) {
 	font-size: 1.10rem;
+	font-weight: 500;
     line-height: 1.5;
     margin-bottom: 2.5em;
-	color: #162B40;
+	color: rgb(35,68,101);
 }
 
 .main-articles article:nth-child(1) div:nth-child(3) {
@@ -387,6 +388,8 @@ hr {
 }
 .teacher p {
 	color: rgb(87, 87, 87);
+	line-height: 1.5;
+	font-weight: 500;
 }
 
 .main-articles article:nth-child(6) h2 {
@@ -437,7 +440,11 @@ footer > div {
 	background-color: #162B40;
 	margin-top: 0;
 	margin-bottom: 1em;
-	font-size: 2rem;
+	gap: 1.25em;
+}
+
+.social-media i {
+	font-size: 1.5rem;
 }
 
 footer ul {
@@ -455,15 +462,20 @@ footer h3 {
 
 footer a {
 	color: white;
-	font-size: 0.75em;
+	font-size: 1rem;
 }
 
 footer:nth-last-child(1) {
 	color: #8DA1B2;	
 }
 
-footer:nth-last-child(1) p {
+.all-rights-reserved {
+	color: rgb(138,149,159);
+}
+
+.all-rights-reserved p{
 	padding-bottom: 0.25em;
-	font-size: 0.75em;
+	color: rgb(138,149,159);
+	font-size: 1rem;
 }
 
