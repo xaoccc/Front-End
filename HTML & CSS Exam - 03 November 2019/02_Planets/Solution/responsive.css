@@ -1,0 +1,32 @@
+@media screen  and (max-width: 850px){
+    .pair{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .planet {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    .news ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .news ul li {
+        text-align: center;
+    }
+
+    footer nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primary footer nav a:nth-child(even) {
+        border: none;
+    }
+
+}
