@@ -51,7 +51,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #E6E3DE;
-    padding: 1em;
+    padding: 1.5em;
     text-align: center;
 }
 
@@ -70,7 +70,7 @@ header {
 }
 
 .navbar div a {
-    color: #E6E3DE;
+    color: #fff;
     background-color: #554938;
     padding: 0.5em;
     margin-right: 2em;
@@ -103,17 +103,18 @@ header {
 .search h2 {
     color: #fff;
     font-size: 4em;
+    margin-bottom: 0.5em;
 }
 .search input {
     background: rgba(256, 256, 256, 0.6);
-    width: 20em;
+    width: 22em;
     padding: 0.5em;
-    font-size: 1.1em;
+    font-size: 1.25em;
 }
 
 .search i {
     background: rgba(256, 256, 256, 0.6);
-    font-size: 1.25em;
+    font-size: 1.45em;
     padding: 0.5em;
     color: #888181;
 }
@@ -129,7 +130,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: 2em;
-    padding: 2em 0;
     width: 96em;
     margin: 0 auto;
 }
@@ -203,7 +203,7 @@ h4 {
     flex-direction: column;
     align-items: center;
     margin: 0 2em;
-    background-color: rgba(230,227,222,0.4);
+    background-color: rgba(230,227,222,0.6);
 }
 
 .toolbox-item img {
@@ -219,9 +219,41 @@ h5 {
 .toolbox button{
     width: 20%;
     text-align: center;
-    background-color: rgba(217,75,50,0.7);
+    background-color: rgba(217,75,50,0.8);
     padding: 1em;
     margin: 3em 0 2em 0;
     color: #fff;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(230,227,222,0.8);
+    padding: 2em 4em;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li{
+    padding: 0 0.5em;
+    border-right: 1px solid #000;
+}
+
+footer ul li:last-child{
+    border: none;
+}
+
+footer ul li a{
+    color: #000;
+    font-size: 1em;
+}
+
+footer ul li{
+    font-size: 1.25em;
 }
 
