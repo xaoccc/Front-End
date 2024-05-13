@@ -1,0 +1,80 @@
+/* HTML5 reset */
+body, div, span, h1, h2, h3, h4, h5, h6, p, ul, li, a, button, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+}
+article, footer, header, menu, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Common */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #FFD9B0;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    width: 90em;
+    margin: 2em auto;
+    border-radius: 1em;
+}
+
+h1, button {
+    color: #fff;
+}
+img {
+    width: 58.33%;
+    border-radius: 1em 0 0 1em;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5.5em;
+}
+
+input {
+    color: #ffffff;
+    background: none;
+    border-bottom: 1px solid #B3BEBE;
+    margin-top: 3em;
+    padding-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+button {
+    background-color: #EDB77D;
+    margin-top: 2em;
+    padding: 1em;
+    width: 40%;
+    border-radius: 0.25em;
+}
