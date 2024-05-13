@@ -29,3 +29,199 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Common */
+body {
+    font-family: 'Gelasio', sans-serif;
+    background-image: url("Requirements-and-Resources/Media/background.jpg");
+    background-position-x: center;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E6E3DE;
+    padding: 1em;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Requirements-and-Resources/Media/craving.jpg");
+    background-size: cover;
+    padding: 10.5em 0 19em 0;
+}
+
+.navbar nav a, header h1{
+    color: #554938;
+}
+
+.navbar div a {
+    color: #E6E3DE;
+    background-color: #554938;
+    padding: 0.5em;
+    margin-right: 2em;
+}
+
+.navbar div button {
+    background: none;
+}
+
+.navbar div button i {
+    font-size: 1.25em;
+}
+
+.navbar nav a{
+    font-size: 1.5em;
+}
+
+.navbar h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+.navbar nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5em;
+}
+
+.search h2 {
+    color: #fff;
+    font-size: 4em;
+}
+.search input {
+    background: rgba(256, 256, 256, 0.6);
+    width: 20em;
+    padding: 0.5em;
+    font-size: 1.1em;
+}
+
+.search i {
+    background: rgba(256, 256, 256, 0.6);
+    font-size: 1.25em;
+    padding: 0.5em;
+    color: #888181;
+}
+
+.search-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 2em 0;
+    width: 96em;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    justify-content: row;
+}
+
+section{
+    display: flex;
+    justify-content: row;
+}
+
+section:nth-child(1) img, section:nth-child(2) img {
+    width: 60%;
+}
+
+section:nth-child(1) a, section:nth-child(2) a {
+    background-color: #554938;
+    padding: 1em;
+    color:#fff;
+}
+section:nth-child(1) p, section:nth-child(2) p {
+    padding: 0 3em 2em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+    background-color: #E6E3DE;
+}
+
+h3 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 0.3em;
+}
+
+.toolbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toolbox-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h4 {
+    background-color: rgba(230,227,222,0.7);
+    padding: 0.5em 1em;
+    width: 20%;
+    text-align: center;
+    margin: 0.5em 0 1.5em 0;
+    color: #554938;
+    font-size: 1.5em;  
+    font-weight: 700;
+}
+
+.toolbox-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2em;
+    background-color: rgba(230,227,222,0.4);
+}
+
+.toolbox-item img {
+    width: 15.5em;
+}
+
+h5 {
+    font-style: italic;
+    padding: 1em;
+    font-size: 1.5em;      
+}
+
+.toolbox button{
+    width: 20%;
+    text-align: center;
+    background-color: rgba(217,75,50,0.7);
+    padding: 1em;
+    margin: 3em 0 2em 0;
+    color: #fff;
+}
+
