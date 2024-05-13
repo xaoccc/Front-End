@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    main ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .big_article .article {
+        width: 15em;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .big_article .article .article_text h3 {
+        font-size: 1.25em;
+    }
+
+    .big_article .article .article_text, .article_text{
+        margin-top: 0;
+    }
+
+    .article_text {
+        padding: 15px;
+
+    }
+
+    .row_articles {
+        flex-direction: column;
+    }
+
+    .image {
+        height: 11em;
+    }
+
+    .article {
+        margin: 1em auto;
+        height: unset;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer ul{
+        text-align: center;
+    }
+    
+}
