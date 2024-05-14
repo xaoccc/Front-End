@@ -1,0 +1,165 @@
+/* HTML5 reset */
+body, div, span, h1, h2, h3, h4, h5, h6, p, ul, li, a, button, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+}
+article, footer, header, menu, section {
+	display: block;
+}
+
+/* Common */
+body {
+    line-height: 1;
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+    font-family: "Gelasio", sans-serif;
+    background-color: #E1E1E1;
+}
+
+/* Header */
+header {
+    background-image: url('Requirements-and-Resources/images/map.jpg');
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navbar i {
+    margin: 2em;
+}
+.navbar a, i {
+    color: #aaa;
+    font-size: 1.25rem;
+}
+.login-searh {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    margin: 1rem;
+    width: 90px;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 20rem;
+    font-weight: 700;
+    text-shadow: 3px 5px 3px black;
+}
+button {
+    background-color: #146594;
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem 0 10rem 0;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 2rem;
+}
+
+h2 {
+    color:#53595C;
+    font-size: 2.25rem;
+    margin: 1.5rem 0;
+    font-weight: 700;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.wrapper div p {
+    color:#fff;
+    font-size: 2.5rem;
+    text-shadow: 4px 4px 5px #000;
+}
+
+.left div {
+    width: 39rem;
+    height: 46.75rem;
+    background-image: url("Requirements-and-Resources/images/packing.jpg");
+    background-position-y: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 4rem;
+}
+.right div {
+    width: 55rem;
+    background-size: cover;
+    height: 50%;
+    background-position-y: center;
+    background-size: cover;
+    
+}
+.right div:nth-child(1) {    
+    background-image: url("Requirements-and-Resources/images/planning.jpg");
+}
+.right div:nth-child(1) p {    
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.right div:nth-child(2) {
+    background-image: url("Requirements-and-Resources/images/budget.jpg");
+    display: flex;
+    flex-direction: column-reverse;
+}
+.right div:nth-child(2) p {
+    padding: 0 0 2rem 1rem;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #8C8C8C;
+    padding: 3em 4em;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li{
+    padding: 0 0.5em;
+    border-right: 1px solid #C8C8C8;
+    color: #C8C8C8;
+}
+
+footer ul li:last-child{
+    border: none;
+}
+
+footer ul li a{
+    color: #C8C8C8;
+    font-size: 1em;
+}
+
+footer ul li{
+    font-size: 1.25em;
+}
+
+
