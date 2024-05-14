@@ -1,5 +1,5 @@
 /* HTML5 reset */
-body, div, span, h1, h2, h3, h4, h5, h6, p, ul, li, a, button, input {
+body, div, a, button, input {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -13,10 +13,85 @@ body, div, span, h1, h2, h3, h4, h5, h6, p, ul, li, a, button, input {
 article, footer, header, menu, section {
 	display: block;
 }
+
+/* Custom styles */
 body {
-	line-height: 1;
+    line-height: 1;
 	min-height: 100vh;
 	display: flex;
     flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('image.jpg');    
+    background-size: cover;
+}
+
+main {
+    background-color: rgb(0, 0, 0, 0.5);
+    min-height: 100vh;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 28em;
+    margin: 17.5em auto 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+}
+
+h1 {
+    color: rgb(256, 256, 256);
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.input-wrapper {
+    margin-top: 1.5em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(148, 148, 148);
+}
+
+label {
+    padding: 0 2rem;
+}
+
+label i {
+    font-size: 1.25rem;
+    color: #aaa;
+}
+
+button {
+    width: 50%;
+    margin: 1.25em 0;
+    padding: 1rem;
+    background-color: #D41872;
+    color: rgb(256, 256, 256);
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
 }
 
