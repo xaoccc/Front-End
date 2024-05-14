@@ -56,8 +56,6 @@
 }
 
 @media screen and (max-width: 1236px) {
-
-
     main ul {
         display: flex;
         flex-direction: column;
@@ -111,8 +109,5 @@
     .article {
         height: unset;
     }
-
-
-
     
 }
