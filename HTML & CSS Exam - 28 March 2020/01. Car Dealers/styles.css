@@ -10,7 +10,7 @@ body, div, span, h1, h2, h3, h4, h5, h6, p, ul, li, a, button, input {
     list-style-type: none;
     border: none;
 }
-article, footer, header, menu, section {
+article, footer, header, menu, section, img {
 	display: block;
 }
 body {
@@ -25,4 +25,75 @@ ol, ul {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* Common */
+body {
+	font-family: "Lato", "Montserrat", sans-serif;
+}
+main {
+	width: 88.75em;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+
+h1 {
+	margin: 2em 0 1em;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 400;
+}
+
+main > img {
+	width: 50%;
+	object-fit: cover;
+}
+section {
+	width: 50%;
+	padding: 1.75em;
+}
+
+li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap:1em;
+}
+
+p {
+	color: #777;
+	font-size: 1.15rem;
+	line-height: 1.5;	
+}
+
+h3 {
+	font-size: 1.4rem;
+	font-weight: 600;
+	line-height: 1.5;
+	margin-bottom: 1.5em;
+}
+ul {
+	margin-top: 1.5em;
+	display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.list-img {
+	width: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-item {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35em;
+}
+
+h4 {
+	font-size: 1.15rem;
+	font-weight: 600;
+	color: #777;
 }
