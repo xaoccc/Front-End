@@ -1,0 +1,239 @@
+/* HTML5 reset */
+body, div, span, h1, h2, h3, h4, h5, h6, p, ul, li, a, button, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+}
+article, footer, header, menu, section, img {
+	display: block;
+}
+body {
+	line-height: 1;
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Common */
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+header {
+	margin: 3em;
+}
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+header a, .first-wrapper-text a, h1, h2, h4, .second-wrapper-text a, .second-wrapper-text span {
+	text-transform: uppercase;
+}
+
+header a {
+	color: #999;
+	font-size: 1.25rem;	
+	font-weight: 700;
+}
+
+.first-wrapper, .second-wrapper {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first-wrapper {
+	padding-bottom: 4em;
+}
+
+.first-wrapper img, .second-wrapper img{
+	width: 100%;
+}
+
+.first-wrapper-text, .second-wrapper-img  {
+	width: 40%;
+}
+
+.first-wrapper-img, .second-wrapper-text  {
+	width: 60%;
+}
+
+h1 {
+	font-size: 3.5rem;
+    font-weight: 200;
+    margin-bottom: 1em;
+}
+
+.first-wrapper-text {
+	margin: 0 1em 0 8em;
+	padding-bottom: 8em;
+}
+
+.first-wrapper-text p, .second-wrapper-text p {
+	line-height: 2;
+	margin-bottom: 4.5rem;
+}
+
+.first-wrapper-text a, .second-wrapper-text a {
+	background-color: red;
+	color: white;
+	font-weight: 200;
+	padding: 1em 3.5em;
+	border-radius: 2em;
+}
+
+.price span {
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+.second-wrapper {
+	padding: 4em 0 4em 3em;
+	background-color: #FBFCFF;
+}
+.price {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 2em;
+	padding-bottom: 2em;
+}
+
+h2 {
+	font-size: 5rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+h4 span {
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 1.5rem;
+	font-weight: 200;
+	margin-bottom: 1em;
+	text-align: right;
+}
+
+.powerbeats {
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+	padding-right: 8em;
+}
+
+.second-wrapper-text p {
+	font-size: 1.25rem;
+	padding: 3em 3em 0 0;
+}
+
+.second-wrapper-text {
+	margin: 0 2em 0 8em;
+}
+
+.third-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #575757;
+	color: white;
+	text-transform: uppercase;
+}
+
+.third-wrapper a {
+	color: white;
+	text-transform: uppercase;
+	font-size: 2.25rem;
+	font-weight: 700;
+	border-bottom: 1px solid white;
+	margin-bottom: 1em;
+}
+
+.third-wrapper-text {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 2.5rem;
+	padding: 1em 0;
+	font-weight: 300;
+	gap: 1em;
+}
+
+.third-wrapper-text span {
+	font-weight: 700;
+}
+
+.fourth-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #DADADA;
+}
+
+.fourth-wrapper-img-left {
+	width: 50%;
+}
+
+.fourth-wrapper-img-left img {
+	width: 100%;
+}
+
+.fourth-wrapper-text {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+    padding-left: 6em;
+}
+
+.fourth-wrapper-text > div {
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 8rem;
+	font-weight: 900;
+	color: #333333;
+}
+
+.fourth-wrapper-text > p {
+	font-size: 3.5rem;
+	font-weight: 300;
+	letter-spacing: -5px;
+	color: #333333;
+	padding-left: 15px;
+}
+.fourth-wrapper-text > p > span {
+	font-size: 3.5rem;
+	font-weight: 700;
+	color: red;
+	text-transform: uppercase;
+	letter-spacing: -5px;
+}
+
+.fourth-wrapper-img-right {
+	width: 20%;
+	display: flex;
+    align-items: center;
+}
+
+footer p {
+	text-align: center;
+    padding: 1.5em 0;
+    font-size: 2rem;
+	color: #333333;
+}
+
