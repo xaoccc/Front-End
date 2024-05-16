@@ -7,7 +7,6 @@ body, div, span, h1, h2, h3, h4, h5, h6, p, ul, li, a, button, input {
 	font: inherit;
 	vertical-align: baseline;
     text-decoration: none;
-    list-style-type: none;
     border: none;
 }
 article, footer, header, menu, section, img {
@@ -19,12 +18,118 @@ body {
 	display: flex;
     flex-direction: column;
 }
-ol, ul {
-	list-style: none;
-}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 /* Common */
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    margin:3.5rem 0;
+}
+
+article {
+    display: flex;
+    flex-direction: column;    
+    width: 29rem;
+    border-radius: 7px;
+    padding: 1.5rem;
+}
+
+.left {
+    border: 2px solid #ddd;
+    background-color: #E3F3FD;
+}
+
+.left li {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0.75rem 0;
+    margin-left:1em;
+}
+ul {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: "🗸"; 
+    margin-right: 10px;
+    color: #44A9F8;
+    font-size: 1rem;
+    font-weight: 900;
+}
+   
+.right {
+    border: 4px solid #44A9F8;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 1.75em;
+    color: #444;
+    font-size: 1.25rem;
+}
+
+.right p {
+    margin: 1.5rem 0 1.25rem;
+    color: #444;
+}
+
+
+h1, span {
+    font-family: 'Montserrat', sans-serif;
+}
+
+li, p, a, button, h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+button {
+    padding: 0.5rem 2rem;
+    background-color: #44A9F8;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #ddd;
+    margin-bottom: 1.75em;
+}
+
+span {
+    color: #44A9F8;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1050px) {
+    article {
+        height: 250px;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    article {
+        height: 300px;
+    }
+
+    h2 {
+        margin-top: 2.5em;
+    }
+    
+}
+
+@media screen and (max-width: 580px) {
+    article {
+        height: 400px;
+    }
+
+    h2 {
+        margin-top: 4.5em;
+    }
+    
+}
