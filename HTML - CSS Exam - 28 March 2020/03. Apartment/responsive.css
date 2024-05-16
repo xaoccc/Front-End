@@ -1,5 +1,4 @@
 @media screen and (max-width: 768px) {
-
     .options, .gallery, .magazine article {
         flex-direction: column;
         justify-content: center;
