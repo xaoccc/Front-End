@@ -7,18 +7,12 @@ body, div, span, h1, h2, h3, h4, h5, h6, p, ul, li, a, button, input {
 	font: inherit;
 	vertical-align: baseline;
     text-decoration: none;
-    list-style-type: none;
     border: none;
 }
 article, footer, header, menu, section, img {
 	display: block;
 }
-body {
-	line-height: 1;
-	min-height: 100vh;
-	display: flex;
-    flex-direction: column;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -28,3 +22,92 @@ table {
 }
 
 /* Common */
+
+body {
+	line-height: 1;
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+	font-family: "Lato", sans-serif;
+	background-image: url("images/hero-certificates.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.background {
+	background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 50px;
+	margin: 0 5%;
+	background-color: rgba(255, 255, 255);
+	z-index: 100;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 5px 5px 25px #474e57;
+}
+
+header img {
+	width: 10em;
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 1em;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;	
+	gap: 1em;
+}
+
+header ul li{
+	display: flex;
+	flex-direction: row;
+}
+
+header ul li a{
+	color: #29394B;
+	font-size: 1.25rem;
+}
+
+.profile {
+	background-color: #42ABF8;
+	padding: 16px;
+	border-radius: 100%;
+	height: 25px;
+	width: 25px;
+	box-shadow: 3px 3px 15px #42ABF8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile a {
+	color:white;
+	font-size: 1.25rem;
+}
+
+main {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 104em;
+	z-index: 100;
+}
