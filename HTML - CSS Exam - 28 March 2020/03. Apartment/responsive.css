@@ -1,0 +1,8 @@
+@media screen and (max-width: 468px) {
+    .options, .gallery {
+        flex-direction: column;
+    }
+    .blog img, .blog-title h4 span, .blog-title > a {
+        display: none;
+    }
+}
