@@ -50,7 +50,7 @@ header {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding: 26px 50px;
+	padding: 0 50px;
 	margin: 0 5%;
 	background-color: rgba(255, 255, 255);
 	z-index: 100;
@@ -80,6 +80,12 @@ header ul {
 header ul li{
 	display: flex;
 	flex-direction: row;
+	padding: 48px 16px;
+}
+
+header ul li:hover{
+	padding-top: 43px;
+	border-top: 5px solid #42ABF8;
 }
 
 header ul li a{
@@ -214,6 +220,7 @@ h2 {
 	width: 103rem;
 	margin: 1em auto;
 	border-radius: 7px;
+	box-shadow: 0 5px 10px rgb(140, 160, 180);
 }
 
 .fourth h1 {
@@ -236,6 +243,13 @@ h2 {
 	border-radius: 7px;
 	color: white;
 }
+
+.section button:hover {
+	background-color: white;
+	color: #42ABF8;
+	cursor: pointer;
+}
+
 .buttons { 
 	display: flex;
     align-items: center;
@@ -260,7 +274,9 @@ footer {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding: 26px 50px;
+	padding: 3.5rem 0;
+	margin-top: 5rem;
+	border-top: 1px solid #29394B;
 }
 
 footer ul, .logo {
@@ -274,6 +290,10 @@ footer ul, .logo {
 footer a {
 	color: #29394B;
 	font-size: 1.25rem;
+}
+
+.logo p {
+	color: #bbb;
 }
 
 
