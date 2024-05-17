@@ -1,0 +1,82 @@
+/* CSS Reset */
+body, a, h1, h2, button {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1;
+    list-style: none;
+    text-decoration: none;
+}
+article, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Page Layout */
+section {
+    width: 83.5rem;
+    margin: 3.5rem auto 0;
+    display: flex;
+    flex-direction: column;
+}
+section > p {
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.75rem;    
+    color: #757575;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: Georgia, serif;
+    margin-bottom: 1rem;
+}
+article {
+    display: flex;
+    flex-direction: row;  
+    align-items: flex-end;  
+}
+button {
+    background-color: #03A87C;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    padding: 1.25rem;
+    width: 50%;
+    border-radius: 5px;
+}
+article div {
+    width: 50%;
+    display: flex;
+}  
+article div:nth-child(1) {
+    height: 100%;
+    
+}
+article div:nth-child(2) {
+    flex-direction: column;    
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1.25rem 0 1.25rem 0;
+}
+
+hr {
+    border-block-start: 1px solid rgb(82, 82, 82);
+    width: 45%;
+    margin-top: 5rem;
+}
