@@ -58,13 +58,16 @@ main {
 
 .first-section {
     background-color: #54546D;
+    height: 29rem;
+    margin-bottom: 20rem;
 }
 
 h1 {
     color: #fff;
     font-size: 2.5rem;
+    font-weight: 700;
     text-align: center;
-    margin: 5rem 0 3rem 0;
+    margin: 5.5rem 0 4.5rem 0;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -78,28 +81,82 @@ h1 {
 .articles-wrapper article {
     background-color: #fff;
     width: 32%;
-    border-radius: 10px;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    box-shadow: 3px 0 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 .articles-wrapper h2, .articles-wrapper article > p {
     color: #54546D;
+
 }
 
 .articles-wrapper h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
     margin: 3rem 0 1rem 0;
+}
+
+.articles-wrapper article > p {
+    font-size: 1.35rem;
+    text-align: center;
+    margin: 0 2.5rem;
 }
 
 .articles-wrapper button {
     background-color: #9A5DC6;
     color: #fff;
-    font-size: 1.5rem;
-    padding: 1rem 2.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 1.25rem 2.5rem;
+    margin: 4.5rem 0;
     border-radius: 2rem;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.article-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.article-footer-item {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-footer-item h3 {
+    font-size: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+.article-footer-item p {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.first-article{
+    background: linear-gradient(90deg, rgba(2,154,60,1) 0%, rgba(75,214,128,1) 50%);   
+
+}
+
+.second-article{
+    background: linear-gradient(90deg, rgba(76,107,135,1) 0%, rgba(98,155,208,1) 50%);   
+
+}
+
+.third-article{
+    background: linear-gradient(90deg, rgba(75,56,166,1) 0%, rgba(140,125,225,1) 50%);
+
 }
 
 
