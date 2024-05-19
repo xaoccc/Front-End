@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+    .wrapper > .inner, .feature, .wrapper > .inner.narrow, .banner h2 {
+        width: 100%;
+    }
+
+    .features, .grid-form {
+        flex-direction: column;
+    }
+
+
+}
