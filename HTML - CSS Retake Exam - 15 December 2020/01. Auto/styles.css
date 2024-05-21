@@ -22,13 +22,6 @@ body {
 ol, ul {
 	list-style: none;
 }
-html {
-	box-sizing: content-box;
-}
-
-*, *::before, *::after {
-	box-sizing: inherit;
-}
 
 
 /* Common */
