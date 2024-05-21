@@ -1,0 +1,110 @@
+/* HTML5 reset */
+body, div, span, h1, h2, h3, h4, h5, h6, p, ul, li, a, button, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+}
+article, footer, header, menu, section, img {
+	display: block;
+}
+body {
+	line-height: 1;
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+}
+ol, ul {
+	list-style: none;
+}
+html {
+	box-sizing: content-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+
+/* Common */
+body {
+	font-family: "Poppins", sans-serif;
+}
+main {
+	max-width: 80em;
+	margin: 3em auto 0;
+	display: flex;
+	flex-direction: row;
+}
+
+main > img {
+	width: 50%;
+	object-fit: cover;
+}
+section {
+	width: 50%;
+	padding-right: 2em;
+}
+
+li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap:1em;
+}
+
+section > p {
+	padding-right: 1em;
+	margin-bottom: 1em;
+}
+
+section > p:last-of-type {
+	margin-bottom: 2.5em;
+}
+
+p {
+	color: #777;
+	line-height: 1.5;	
+}
+
+h1 {
+	font-size: 1.5em;
+	line-height: 1.5;
+	margin-bottom: 1.5em;
+}
+
+h4 {
+	font-size: 1.15rem;
+}
+
+h1, h4 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+}
+ul {
+	margin-top: 1.5em;
+	display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.list-img {
+	width: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-img img {
+	width: 4em;
+}
+
+.list-item {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35em;
+}
