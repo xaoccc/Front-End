@@ -85,9 +85,6 @@ p {
     font-size: 1.6em;
     line-height: 1.5;
 }
-
-
-
 section {
     display: flex;
 }
@@ -110,7 +107,7 @@ article {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin: 9em 0.75em;
+    margin: 9em 1.25em;
 
 }
 
@@ -118,30 +115,67 @@ article p{
     text-align: center;
 }
 
-main section:first-of-type p{
-    border-top: solid 1px #6E6E6E;
-}
-main section:first-of-type p{
+
+main  section:first-of-type p, main  section:last-of-type p{
     color: #6E6E6E;
     margin-top: 2em;
     padding-top: 2em;
+    border-top: solid 1px #6E6E6E;
 }
 
 .icon {
-    width: 2.5em;
+    width: 1.5em;
     aspect-ratio: 1/1;
-    font-size: 4em;
+    font-size: 6em;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #E24E2A;
 }
 
+main section h3 {
+    font-size: 1.75em;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+main section:nth-of-type(2) {
+    padding: 9em;
+}
+
+main section:nth-of-type(2) h2 {
+    font-size: 3.75em;
+    font-weight: 500;
+    color: #555;
+}
+
+main section:nth-of-type(2) p {
+    font-size: 1.9em;
+    font-weight: 500;
+    color: #aaa;
+    margin-bottom: 1.25em;
+}
+
+
+button {
+    background-color: #1B9772;
+    font-size: 1.5em;
+    color: white;
+    letter-spacing: 0.1em;
+    padding: 1.25em 3em;
+}
+
 
 /* footer */
 footer {
     background-color: #1B9772;
-    padding: 4em;
-    color: rgba(255, 255, 255, 0.5);
+    padding: 7em 1em;
+    color: rgba(255, 255, 255, 0.35);
     text-align: center;
+    font-size: 1.25em;
+    letter-spacing: 2px;
+}
+
+footer span {
+    color: rgba(255, 255, 255, 0.7);
 }
