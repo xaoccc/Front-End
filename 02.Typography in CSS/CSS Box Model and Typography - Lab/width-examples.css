@@ -1,0 +1,17 @@
+div {
+    margin: 10px;
+    border: 1px solid black;
+}
+.width-1 {
+    width: 300px;
+}
+.width-2 {
+    width: 50%;
+}
+.width-3 {
+    width: 50vw;
+}
+.width-4 {
+    min-width: 100px;
+    max-width: 300px;
+}

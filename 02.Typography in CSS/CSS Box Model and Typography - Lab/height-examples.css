@@ -1,0 +1,17 @@
+div {
+    margin: 10px;
+    border: 1px solid black;
+}
+.height-1 {
+    height: 200px;
+}
+.height-2 {
+    height: 50%;
+}
+.height-3 {
+    height: 50vw;
+}
+.height-4 {
+    min-height: 100px;
+    max-height: 300px;
+}
