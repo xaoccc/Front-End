@@ -1,0 +1,22 @@
+div {
+    border:1px solid black;
+    padding: 0.5em 1em;
+    margin: 0.5em 0;
+}
+
+.font-1 {
+    font-family: Arial, sans-serif;
+}
+.font-2 {
+    font-size: 24px;
+    padding: 0.4em 0.75em;
+}
+.font-3 {
+    font-weight: bold;
+}
+.font-4 {
+    font-style: italic;
+}
+.font-5 {
+    font-variant: small-caps;
+}
