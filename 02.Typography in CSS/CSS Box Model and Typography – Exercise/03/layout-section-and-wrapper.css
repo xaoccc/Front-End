@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 3em;
+    border: 2px solid green;
+}
+section {
+    width: 80%;
+    margin: 0.5em auto;
+    padding: 1.5em;
+    border: 2px solid blue;
+}
+
+header, article, main, footer {
+    margin: 1em;
+    padding: 1.5em;
+    border: 2px solid black;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+main, article {
+    margin: 1.5em 1em;
+}
