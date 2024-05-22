@@ -1,0 +1,30 @@
+div {
+    border: 1px dashed #333;
+    padding: 1em 2em 2em 2em;    
+}
+
+.outer {
+    width: 36em;
+    background-color:#FF966F ;
+    margin: 4em auto 0;
+    font-size: 2em;
+}
+.outer > div {
+    background-color: #FFE8C6;
+}
+.outer > div > div {
+    background-color: #85EB85;
+}
+.outer > div > div > div {
+    background-color: #A3D2E2;
+    text-align: center;
+    padding: 1em 2em; 
+}
+p {
+    margin: 0;
+    position: relative;
+    bottom: 1em;
+    right: 1.5em;
+}
+
+
