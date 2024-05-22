@@ -1,0 +1,53 @@
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    max-width: 80em;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-family: inherit;
+}
+
+main {
+    margin: 2em auto;
+    padding: 2em;
+    border: 1px solid #666;
+    border-radius: 0.5em;
+}
+h1, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+    font-weight: 900;
+    font-family: inherit;
+}
+h1 {
+    font-size: 2.2em;
+}
+h3 {
+    font-size: 1.8em;
+}
+h4 {
+    font-size: 1.6em;
+}
+h5 {
+    font-size: 1.4em;
+}
+h6 {
+    font-size: 1.2em;
+}
+
+hr, p {
+    margin: 1.5em 0;
+    line-height: 1.5;
+}
+
+.author {
+    font-style: italic;
+}
+
+.author span {
+    font-weight: 700;
+}
+
