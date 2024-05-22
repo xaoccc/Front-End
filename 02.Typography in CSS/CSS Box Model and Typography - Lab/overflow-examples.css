@@ -1,0 +1,20 @@
+body > div {
+    max-width: 20em;
+    max-height: 12em;
+}
+.overflow-visibe {
+    overflow: visible;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.overflow-scroll {
+    overflow: scroll;
+}
+p {
+    padding: 0.5em;
+}
+body > div p:first-of-type {
+    border: 1px solid black;
+    padding: 1em 0.5em 0.5em 0.5em;
+}

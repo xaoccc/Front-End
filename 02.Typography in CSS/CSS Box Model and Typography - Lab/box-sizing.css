@@ -1,0 +1,12 @@
+div {
+    width : 300px;
+    padding: 20px;
+    border: 5px solid #333;
+    margin-bottom: 20px;
+    background-color: #eee;
+}
+/* No need to add box-sizing:content-box explicitly as this is the default behaviour */
+.border-box {
+    box-sizing: border-box;
+}
+
