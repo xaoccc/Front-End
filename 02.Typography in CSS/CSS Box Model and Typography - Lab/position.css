@@ -1,0 +1,27 @@
+section {
+    border: 2px solid black;
+    padding: 2em;
+    position: relative;
+}
+
+div {
+    width: 5em;
+    aspect-ratio: 1 / 1;
+    border: 1px solid rgb(61, 61, 61);
+}
+
+.relative div:nth-of-type(2), .absolute div:nth-of-type(2) {
+    background-color: lightgreen;
+}
+
+.relative div:nth-of-type(2) {
+    position: relative;
+    top: 2em;
+    left: 5em;
+}
+
+.absolute div:nth-of-type(2) {
+    position: absolute;
+    top: 4em;
+    left: 4em;
+}
