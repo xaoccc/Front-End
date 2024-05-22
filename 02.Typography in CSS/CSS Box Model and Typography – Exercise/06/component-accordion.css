@@ -1,0 +1,12 @@
+main {
+    width: 50em;
+    margin: 2em auto;
+    font-family: sans-serif;
+}
+details {
+    border: 1px solid #999;
+}
+summary {
+    font-size: 1.25em;
+    font-weight: 700;
+}
