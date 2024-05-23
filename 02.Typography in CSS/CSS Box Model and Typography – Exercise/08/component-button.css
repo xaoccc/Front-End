@@ -1,0 +1,63 @@
+body, section, ul, li, a, button, h1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    background-color: inherit;
+    font-family: sans-serif;
+}
+
+
+section {
+    display: block;
+    margin: 1em;
+}
+button {
+    background-color: none;
+    border: none;
+}
+
+h1 {
+    padding: 1em 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+
+}
+li + li {
+    margin-left: 1em;
+}
+
+li a{
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+ul li:nth-of-type(1){
+    background-color: rgb(193, 193, 193);
+}   
+ul li:nth-of-type(2){
+    background-color: rgb(255, 145, 0);
+}   
+ul li:nth-of-type(3){
+    background-color: rgb(255, 247, 0);
+}   
+ul li:nth-of-type(4){
+    background-color: white;
+}   
+ul li:nth-of-type(5){
+    background-color: rgb(193, 193, 193);
+}   
+
+li:hover {
+    opacity: 0.6;
+}
