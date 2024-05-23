@@ -1,0 +1,59 @@
+html {
+    font-size: 16px;    
+}
+
+body, img, h1, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    background-color: inherit;
+    font-family: sans-serif;
+}
+
+.banner {
+    background-image: url('images/image1.jpg');
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 160/62.5;
+    color: #fff
+}
+
+.banner-text {
+    width: 40em;
+    margin: 0 auto;
+    padding-top: 15%;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+p {
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px){
+    html {
+        font-size: 12px;
+    }
+
+    .banner-text {
+        padding-top: 13%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    html {
+        font-size: 8px;
+    }
+
+    .banner-text {
+        padding-top: 12%;
+    }
+}
