@@ -76,9 +76,27 @@ h1 {
     font-weight: 100;
 }   
 
-section img {
+.image {
     width: 50%;
     margin-right: 3em;
+    display: flex;
+}
+
+.image-1 {
+    align-items: flex-end;
+}
+.image-2 {
+    align-items: center;
+    justify-content: flex-end;
+    margin:0;
+}
+
+.image-1 img {
+    width: 100%;
+}
+
+.image-2 img {
+    width: 75%;
 }
 
 article {
@@ -101,6 +119,129 @@ section p {
 
 section:nth-of-type(3) img {
     width:100%;
-    margin: 0;
     object-fit: cover;
+}
+
+.social {
+    margin-top: 3em;
+}
+
+.social a {
+    color: #fff;
+    background-color: #909090;
+    padding: 0.5em;
+}
+
+.social a:hover {
+    background-color: #000;
+    color: rgb(126, 126, 126);
+}
+
+.social a + a {
+    margin-left: 1em;
+}
+.horizontal-line {
+    border-top: 1px solid #000;
+    border-left: none;
+    height: 0.3em;
+    width: 1.75em;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+
+.image-3 {
+    width: 80%;
+    align-items: center;
+    margin:0;
+}
+
+.image-3 img {
+    width: 90%;
+}
+
+section:nth-of-type(4) article {
+    padding-right: 10em;
+    margin-right: 0;
+}
+
+section:nth-of-type(5)  {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+section:nth-of-type(5) img {
+    display: inline-block;    
+    object-fit: cover;
+}
+
+section:nth-of-type(5) img:nth-of-type(2) {
+    z-index: 100;
+    height: 60%;
+    margin-left: -7em;  
+    margin-right: -7em;
+}
+section:nth-of-type(5) img:first-of-type,  section:nth-of-type(5) img:last-of-type {
+    height: 40%;
+}
+
+section:nth-of-type(6) {
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 0 17em;
+}
+
+section:nth-of-type(6) p {
+    text-align: center;
+}
+
+form {
+    width: 65%;
+    height: 60%;
+}
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+    
+}
+
+input {
+    padding: 0.5em;
+    width: 44%;
+    background: none;
+}
+
+textarea {
+    display: block;
+    padding: 0.5em;
+    margin: 1em 0;
+    width: 100%;
+    height: 40%;
+    background: none;
+}
+
+button {
+    padding: 0.75em;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+input, textarea {
+    border: 1px solid #000;
+    font-family: inherit;
+    font-size: 1em;
+}
+input::placeholder, textarea::placeholder {
+    color: #000;
+}
+
+small {
+    padding-bottom: 1em;
 }
