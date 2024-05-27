@@ -59,7 +59,7 @@ header ul li + li {
 .first-section-content img {
     width: 120%;
     position: relative;
-    top: 12em;
+    top: 6em;
 }
 .first-section-content article {
     margin-right: -10em;
@@ -94,6 +94,13 @@ h1 {
 
 h2, main > p {
     text-align: center;
+}
+
+@media screen and (min-width: 1700px) {
+    .first-section-content img {
+        top: 12em;
+    }
+    
 }
 
 
