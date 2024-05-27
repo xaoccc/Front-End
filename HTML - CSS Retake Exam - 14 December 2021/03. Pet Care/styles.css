@@ -1,0 +1,99 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+    width: 76.5rem;
+    margin: 0 auto;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    font-weight: 700;
+}
+
+header ul li + li {
+    margin-left: 3rem;
+    
+}
+
+.first-section {
+    background-image: url('images/header-bg.png');
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 1920 / 888;
+}
+
+.first-section-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 76.5rem;
+    margin: 0 auto;
+    color: white;
+}
+
+.first-section-content img {
+    width: 120%;
+    position: relative;
+    top: 12em;
+}
+.first-section-content article {
+    margin-right: -10em;
+}
+.first-section-content p {
+    line-height: 2;
+    padding: 1em 2em 3em 0;
+}
+
+.first-section-content button {
+    color:red;
+    background-color: white;
+    border: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    border-radius: 3em;
+    padding: 1em 3em;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+.light-heading {
+    font-weight: 300;
+}
+
+.bold-heading {
+    font-weight: 700;
+    margin-top: -0.4em;
+}
+
+h2, main > p {
+    text-align: center;
+}
+
+
