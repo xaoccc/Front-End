@@ -1,0 +1,32 @@
+.flex {
+    display: flex;
+    border: 2px solid blue;
+    padding: 1em;
+    width: 25em;
+    align-items: flex-start;
+}
+
+.item {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1em;
+    background-color: #eee;
+}
+
+.custom-order div:nth-child(5) {
+    order: 1;
+}
+.custom-order div:nth-child(2) {
+    order: 2;
+}
+.custom-order div:nth-child(5) {
+    order: 1;
+}
+.custom-order div:nth-child(6) {
+    order: 3;
+}
+.custom-order div:nth-child(1) {
+    order: 5;
+}
+.custom-order div:nth-child(4) {
+    order: 6;
+}

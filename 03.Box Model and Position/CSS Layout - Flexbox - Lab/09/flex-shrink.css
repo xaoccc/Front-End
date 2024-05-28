@@ -9,4 +9,19 @@
     border: 2px solid rgb(0, 0, 0);
     padding: 1em;
     background-color: #eee;
+    flex-basis: 25em;
+}
+
+
+
+.flex-shrink .item {
+    flex-shrink: 1;
+}
+
+.flex-shrink-zero .item {
+    flex-shrink: 0;
+}
+
+.flex-shrink-2nd-only {
+    flex-shrink: 0;
 }

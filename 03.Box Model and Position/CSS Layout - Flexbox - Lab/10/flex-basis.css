@@ -10,3 +10,17 @@
     padding: 1em;
     background-color: #eee;
 }
+.flex-basis-5em .item {
+    flex-basis: 5em;
+}
+
+.flex-shrink-zero .item {
+    flex-shrink: 0;    
+}
+
+.flex-grow-one {
+    width: auto;
+}
+.flex-grow-one .item {
+    flex-grow: 1;
+}
