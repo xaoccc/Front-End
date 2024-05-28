@@ -2,11 +2,21 @@
     display: flex;
     border: 2px solid blue;
     padding: 1em;
-    width: 25em;
+    width: 21em;
 }
 
 .item {
     border: 2px solid rgb(0, 0, 0);
     padding: 1em;
     background-color: #eee;
+}
+
+.flex-wrap-nowrap {
+    flex-wrap: nowrap;
+}
+.flex-wrap-wrap{
+    flex-wrap: wrap;
+}
+.flex-wrap-wrap-reverse{
+    flex-wrap: wrap-reverse;
 }

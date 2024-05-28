@@ -2,11 +2,23 @@
     display: flex;
     border: 2px solid blue;
     padding: 1em;
-    width: 25em;
+    width: 21em;
+    flex-wrap: wrap;
 }
 
 .item {
     border: 2px solid rgb(0, 0, 0);
     padding: 1em;
     background-color: #eee;
+}
+
+.gap-row {
+    gap: 2em 0;
+}
+
+.gap-column {
+    gap: 0 2em;
+}
+.gap {
+    gap: 2em;
 }
