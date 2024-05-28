@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 2em;
+    width: 80em;
+    margin: 3em auto;
+}
+
+.gallery > div {
+    width: 30%;
+    border: 7px solid #000;
+    border-radius: 3px;
+    height: auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    gap: 2em;
+    background-color: #fff;
+}
+
+.gallery > div img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery > div small {
+    align-self: flex-start;
+    color: #aaa;
+    font-style: italic;    
+    font-size: 1.25em;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
