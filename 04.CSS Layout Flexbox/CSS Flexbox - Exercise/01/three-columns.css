@@ -1,0 +1,67 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 68em; 
+    margin: 10em auto 0;
+    justify-content: center; 
+    align-items: center; 
+    font-family: Helvetica, sans-serif; 
+}
+
+main > p, blockquote {
+    color: #666;
+}
+
+h1 {
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+}
+h2 {
+    font-size: 1.1em;
+    margin-bottom: 0.3em;
+}
+p {
+    line-height: 1.5;
+}
+article p{
+    font-size: 0.75em;
+    line-height: 1.75;
+    font-weight: 700;
+}
+.header {
+    width: 40%;
+    font-style: italic;
+}
+blockquote, .footer {
+    font-size: 0.85em;
+}
+
+blockquote {
+    font-style: italic;
+}
+.footer {    
+    text-align: center;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    margin: 2em 0;
+    justify-content: space-around;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 1.5em 0;
+    width: 7em;
+}
