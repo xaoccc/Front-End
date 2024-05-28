@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+main {
+    display: flex;
+    gap: 2em;
+    max-width: 68em;
+    margin: 3em auto;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 70%;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    border-radius: 5px;
+    padding: 2em;
+    background-color: #fff;
+    height: 100%;
+}
+
+.item p {
+    font-size: 0.8em;
+    line-height: 1.5;
+    color: rgb(159,159,159);
+    font-weight: 700;
+    margin: 1em 0 3em;
+}
+.item cite {
+    font-style: normal;
+    font-weight: 700;
+
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #009900;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.5);
+}
+
+i {
+    font-size: 3.5em;
+}
+
+.right-section {
+    flex-direction: column;
+    width: 37%;
+}
+
+.right-section .circle{
+    width: 30%;
+    margin-bottom: 8em;
+}
