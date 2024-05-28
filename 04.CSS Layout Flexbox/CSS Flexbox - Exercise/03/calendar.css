@@ -1,54 +1,60 @@
-
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-weight: inherit;
-  }
-  
-body {
-      font-family: Helvetica, sans-serif;
-      background-color: #eee;
-      
 }
-  
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #eee;
+
+}
+
 main {
-      max-width: 68em;
-      padding: 0.25em;
-      margin: 5em auto 0;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      background-color: #fff;
-      box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
-      border-radius: 5px;
-      font-weight: 700;
-  }  
+    max-width: 68em;
+    padding: 0.25em;
+    margin: 5em auto 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #fff;
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-weight: 700;
+}
+
 section {
-      display: flex;
-      flex-direction: row;
-      border: 2px solid #ccc;      
-  }
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #ccc;
+}
 
 section:nth-child(1) {
-      border-radius: 5px 5px 0 0;
-  }
+    border-radius: 5px 5px 0 0;
+}
+
 section:nth-child(2) {
     border-top: none;
-      border-radius: 0 0 5px 5px;
-  }
+    border-radius: 0 0 5px 5px;
+}
+
 .week {
     display: flex;
     flex-direction: column;
     flex-basis: 53em;
-    border-right: 2px solid #ccc; 
+    border-right: 2px solid #ccc;
 }
+
 .reminders {
     flex-grow: 1;
     text-align: center;
     margin-top: 1.5em;
     border: none;
 }
+
 .day {
     display: flex;
     flex-direction: row;
@@ -66,8 +72,9 @@ h1 {
     text-align: center;
     margin: 1.5em 0;
     font-size: 1em;
-    
+
 }
+
 hr {
     width: 1px;
     height: 100%;
