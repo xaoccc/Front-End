@@ -1,0 +1,87 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    max-width: 67em;
+    margin: 10em auto 0;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+main > div {
+    gap: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.key {
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-grow: 1;
+    background-color: #eee;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 0 rgb(89, 89, 89);
+}
+
+.key:hover, .key.alnum:hover {
+
+    box-shadow: 0 0 0 rgb(255 255 255);
+}
+
+.key.big {
+    flex-grow: 2;
+}
+.key.space {
+    flex-grow: 25;
+}
+.key.shift {
+    flex-grow: 15;
+}
+
+.row-3-4-left {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    flex-grow: 2;
+}
+.row-3-4 {
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    flex-grow: 2;
+}
+
+.row-3, .row-4 {
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    flex-grow: 2;
+}
+
+.row-4 .key {
+    flex-grow: 1;
+}
+
+.key.big.enter {
+    flex-grow: 0;
+}
+
+.key.alnum {
+    background-color: #fff;
+    width: 3.25em;
+    height: 3.25em;
+}
