@@ -16,8 +16,9 @@ main {
     max-width: 67em;
     margin: 10em auto 0;
     background-color: #ddd;
-    border: 1px solid #ccc;
+    border: 1px solid #aaa;
     border-radius: 10px;
+    box-shadow: 0 4px 0 rgb(89, 89, 89);
 }
 
 main > div {
@@ -50,6 +51,9 @@ main > div {
 }
 .key.shift {
     flex-grow: 15;
+}
+.key.tab {
+    flex-grow: 10;
 }
 
 .row-3-4-left {
