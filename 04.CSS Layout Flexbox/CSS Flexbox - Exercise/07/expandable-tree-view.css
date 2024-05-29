@@ -56,11 +56,10 @@ h1 {
     display: none;
 }
 
-.tree > ul > li > ul {
+.tree ul > ul {
     display: none;
 }
 
-.plus:hover + .tree ul, .minus:hover + .tree ul {
+.plus:hover + .tree ul > ul {
     display: block;
-
 }
