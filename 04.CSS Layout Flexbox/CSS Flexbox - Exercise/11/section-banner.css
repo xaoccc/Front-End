@@ -1,0 +1,67 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eee;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 2rem;
+    width: 68em;
+    margin: 2em auto 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+main > div {
+    background-color: #eee;
+    flex-basis: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+main > article {
+    background-color: #fff;
+
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+p {
+    margin-bottom: 1.5em;
+}
+
+button {
+    display: inline-block;
+    padding: 0.75em 1.25em;
+    margin-right: 1.5em;
+    background-color: #eee;
+    border-radius: 3px;
+    color: #555;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: purple;
+    color: #fff;
+}
+
+p, h2 {
+    color: #666;
+    line-height: 1.5;
+}
