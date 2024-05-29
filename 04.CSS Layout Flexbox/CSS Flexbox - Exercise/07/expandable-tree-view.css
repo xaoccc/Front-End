@@ -1,0 +1,66 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+h1 {
+    margin: 1em 2em;
+    font-size: 2.5em;
+
+}
+
+.tree {
+    margin: 2em;
+}
+
+.plus, .minus {
+    cursor: pointer;
+    padding: 0.5em;
+    background-color: green;
+    border-radius: 50%;
+    width: 2em;
+    aspect-ratio: 1/1;
+    text-align: center;
+}
+
+.plus {
+    display: inline-block;
+}
+
+.minus {
+    display: none;
+}
+
+.plus:hover + .minus {
+    display: inline-block;
+}
+
+/* .minus:hover   {
+    display: inline-block;
+} */
+
+.minus:hover + .plus {
+    display: none;
+} 
+
+.plus:hover {
+    display: none;
+}
+
+.tree > ul > li > ul {
+    display: none;
+}
+
+.plus:hover + .tree ul, .minus:hover + .tree ul {
+    display: block;
+
+}
