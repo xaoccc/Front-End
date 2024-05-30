@@ -1,1 +1,44 @@
 /* TODO: Add the responsive styles here */
+@media screen and (max-width: 600px){
+    .tm-gallery-page , .tm-cta-section {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .tm-gallery-page-pizza {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .tm-gallery-page {
+        margin: 0;
+        align-content: center;
+    }
+
+    .row.tm-gallery {
+        margin: 0;
+    }
+
+    .tm-paging-link {
+        padding: 10px 20px;
+    }
+
+    .row.tm-welcome-section h2 {
+        margin-left: 0;
+
+    }
+
+    .row.tm-header-inner {
+        margin: 0;
+        padding: 40px 0;
+        justify-content: center;
+    }
+
+    .col-md-6.col-12 {
+        padding: 0;
+        display: flex;
+    }
+
+
+}
