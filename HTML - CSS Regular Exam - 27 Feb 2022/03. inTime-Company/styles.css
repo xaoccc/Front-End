@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5em;
+}
+
+header a {
+    font-size: 1.2em;
+    opacity: 0.8;
+}
+
+.company-color {
+    color: #34B1C4;
+}
+.logo {
+    font-size: 2.25em;
+}
+
+.first-section {
+    background-image: url('images/slide2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 15em 0;
+}
+
+.first-section > div > div{
+    color: #fff;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 38em;
+}
+
+.first-section > div{
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.first-section h1 {
+    font-size: 3em;
+    font-weight: 500;
+}
+.first-section button {
+    font-size: 1.5em;
+    font-weight: 500; 
+    background-color: #008CBA;
+    margin-top: 1rem;
+}
+
+h2 {
+    font-size: 2.25em;
+    font-weight: 500;
+    margin: 1em 0 0.5em;
+    text-align: center;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 4em;
+    height: 3px;
+    background-color: #454545;
+    margin: 0.25em auto;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    color: #454545;
+}
+
+.second-section h2::after {
+    background-color: #34B1C4;
+}
+
+.fourth-section h2::after {
+    background-color: #fff;
+}
+
+p {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.25em;
+}
+
+button {
+    background-color: #454545;
+    color: #fff;
+    padding: 1rem 3rem;
+    border-radius: 2em;
+    border: none;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+.second-section button {
+    margin: 2em 0;
+}
+
+#third-section {
+    background-color: #EEF0F1;
+}
+
+#third-section article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding: 2em 0;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.services img {
+    display: block;
+    width: 100%;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    background-color: #fff;
+    padding-bottom: 2em;
+    border-radius: 5px;
+    overflow: hidden;
+    color: #454545;
+}
+
+h3 {
+    font-size: 1.75em;
+    font-weight: 500;
+    margin-top: 0.8em;
+}
+
+#third-section button {
+    border-radius: 10px;
+    padding: 0.5em 1.5em;
+}
+
+.fourth-section {
+    background-color: #393F43;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    background-color: #545A5E;
+    color: #757575;
+    padding: 0.6em 1em;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.25em;
+    font-style: italic;
+    flex-grow: 0.2;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em 0;
+    margin: 1.5em 0 2.5em;
+}
+
+form button {
+    background-color: #6BBFFF;
+    padding: 0.6em 2em;
+    border-radius: 5px;
+    border: none;
+}
+
+footer {
+    background-color: #2F3539;
+    color: #fff;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.copyright {
+    background-color: #262B2F;
+    font-size: 0.85em;
+    padding: 1em 0;
+}
+
+.copyright a {
+    color: rgba(0, 139, 186, 0.7)
+}
+
+footer ul li a {
+    font-size: 1.25em;
+}
+
+.social-media a + a {
+    margin-left: 1em;
+}
+
+footer > nav > ul > li:first-of-type {
+    font-size: 1.35em;
+}
+
+

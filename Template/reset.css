@@ -1,22 +1,17 @@
-html {
-	box-sizing: border-box;
-}
-
-*, *::before, *::after {
-	box-sizing: inherit;
-}
-
 * {
     margin: 0;
     padding: 0;
-    text-decoration: none;
-    list-style-type: none;
-    border: none;
+    box-sizing: border-box;
 }
 
 body {
-	line-height: 1;
-	min-height: 100vh;
-	display: flex;
-    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
