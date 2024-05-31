@@ -1,1 +1,51 @@
-//TODO
+@media screen and (max-width: 600px){
+    .menu, .nav-options, .trainings, .getInTouch {
+        flex-direction: column;        
+    }
+    .menu, .nav-options {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .nav-options {
+        text-align: center;
+    }
+
+    header div h1 {
+        font-size: 2em;
+    }
+
+    .trainings div {
+        width: 50%;
+    }
+
+    .getInTouch input, .getInTouch form {
+        width: 100%;
+    }
+
+    .site-footer .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .site-footer .about {
+        flex: 0 0 100%;
+    }
+
+    .classes li {
+        width: 50%;
+        flex: 1;
+        flex-basis: 50%;
+        flex-direction: column;
+    }
+
+    .instructors-pic div {
+        width: unset;
+    }
+
+    .site-footer .wrapper {
+        padding: 0.5rem;
+        width: 90%;
+    }
+    
+}
