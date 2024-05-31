@@ -1,23 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wirework</title>
+    <title>Sign-Up Form</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
-    <!-- add google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<body>
-    <header>
 
-    </header>
+<body>
     <main>
+        <section>
+            <h3>SoftUni</h3>
+            <header>
+                <h1>Welcome to SoftUni.</h1>
+                <h2>Are you ready to become a dev?</h2>
+            </header>
+            <footer>
+                <a href="#"><i class="fa-solid fa-earth-americas"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </footer>
+        </section>
+        <form>
+            <div class="input-container">
+                <label for="username">USERNAME</label>
+                <input type="text" id="username" name="username" placeholder="antoniyaat">
+            </div>
+            <div class="input-container">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" placeholder="a.atanasova@softuni.bg">
+            </div>
+            <div class="input-container">
+                <label for="password">PASSWORD </label>
+                <input type="password" id="password" name="password" placeholder="********">
+            </div>
+            <div class="input-container">
+                <label for="repeat-password">REPEAT PASSWORD </label>
+                <input type="password" id="repeat-password" name="repeat-password" placeholder="********">
+            </div>
+
+            <div class="submit">
+                <button>Register</button>
+                <a href="#">I am already a ninja</a>
+            </div>
+        </form>
+
+
 
     </main>
-    <footer>
-
-    </footer>    
 </body>
+
 </html>
