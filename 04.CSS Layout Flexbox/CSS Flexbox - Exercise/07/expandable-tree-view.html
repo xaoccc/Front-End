@@ -1,38 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Collapsable & expandable tree view in HTML & CSS only</title>
     <link rel="stylesheet" href="expandable-tree-view.css">
 </head>
+
 <body>
     <h1>Collapsable & expandable tree view in HTML & CSS only</h1>
     <div class="tree">
-        <ul>
-            <li>
-                <span class="plus">+</span><span class="minus">-</span>&nbsp;Giant planets
-                <ul>
-                    <li>
-                        <span>Child</span>
+        <details open>
+            <summary>Giant planets</summary>
+            <ul>
+                <li>
+                    <details open>
+                        <summary>Gas giants</summary>
                         <ul>
                             <li>
-                                <span>Grandchild</span>
+                                Jupiter
+                            </li>
+                            <li>
+                                Saturn
                             </li>
                         </ul>
-                    </li>
-                    <li>
-                        <span>Child</span>
+                    </details>
+                </li>
+                <li>
+                    <details open>
+                        <summary>Ice giants</summary>
                         <ul>
                             <li>
-                                <span>Grandchild</span>
+                                Uranus
+                            </li>
+                            <li>
+                                Neptune
+                            </li>
+                            <li>
+                                Mars
                             </li>
                         </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+                    </details>
+                </li>
+            </ul>
+        </details>
+
     </div>
-    
+
 </body>
+
 </html>

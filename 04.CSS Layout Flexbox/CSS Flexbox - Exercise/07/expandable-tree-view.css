@@ -9,8 +9,9 @@ body {
     font-family: Arial, sans-serif;
 }
 
-ul {
+ul, li {
     list-style-type: none;
+    display: block;
 }
 h1 {
     margin: 1em 2em;
@@ -32,34 +33,67 @@ h1 {
     text-align: center;
 }
 
-.plus {
-    display: inline-block;
-}
 
-.minus {
-    display: none;
-}
 
-.plus:hover + .minus {
-    display: inline-block;
-}
 
-/* .minus:hover   {
-    display: inline-block;
-} */
-
-.minus:hover + .plus {
-    display: none;
-} 
-
-.plus:hover {
-    display: none;
-}
-
-.tree ul > ul {
-    display: none;
-}
-
-.plus:hover + .tree ul > ul {
+details, summary {
+    margin-left: 1em;
     display: block;
+}
+
+details {
+    margin-top: -2em;
+    margin-left: -0.5em;
+}
+
+summary {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+summary::before {
+    content: "+";
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    padding: 0.5em;
+    background-color: green;
+    border-radius: 50%;
+    width: 2em;
+    aspect-ratio: 1/1;
+    color: #fff;
+}
+
+details[open] > summary::before {
+    content: "-";
+}
+
+ul {
+    padding-left: 2em;
+}
+li {
+    padding: 0.5em;
+
+}
+
+ul li:not(:last-child) {
+    border-left: 2px solid gray;
+}
+
+li::before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 2em;
+    border-left: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    bottom: 0.6em;
+    right: 0.5em;
+}
+
+ul li:not(:last-child)::before {
+    right: 0.6em;
 }
