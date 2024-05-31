@@ -7,17 +7,14 @@
 
 body {
     font-family: Helvetica, sans-serif;
+    color: #4D5874;
 }
-
+/* header */
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 2.5em 9em 0 7em;   
-}
-
-header nav {
-    color: #4D5874;
 }
 
 ul {
@@ -52,5 +49,144 @@ header li i {
 .logo {
     background: linear-gradient(180deg, #CFAB3B, #986A0C);
     padding: 3.25rem;
+}
+
+/* main */
+
+main section:first-of-type {
+    background-image: url(image/slider.jpg);
+    background-position: center;
+    margin-top: -2em;
+    padding: 10em 0 7em;
+}
+
+.shuttle-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 5rem 5rem 0 7rem;
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 2em;
+}
+
+button {
+    background: none;
+    border: #fff 3px solid;
+    border-radius: 3px;
+    color: #F6B116;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-top: 1em;
+    width: fit-content;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.shuttle-info h2 {
+    margin-bottom: 1em;
+}
+
+main section:nth-of-type(2) {
+    background: linear-gradient(270deg, #CFAB3B, #986A0C);
+    color: #fff;
+    font-size: 1.5em;
+    padding: 2em 0;
+}
+main section:nth-of-type(2) button {
+    margin: auto;
+    display: block;
+    color: #fff;
+}
+main section:nth-of-type(2) p {
+    padding: 0.5em 0;
+}
+main section:nth-of-type(2) h2 {
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+.wrapper {
+    width: 42%;
+    margin: 0 auto;
+}
+
+main section:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+    width: 71%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em 0;
+    padding: 1em 3em;
+}
+
+.services img {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0px 3px #555;
+    width: 15rem;
+
+}
+.services article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:0;
+}
+
+h5 {
+    margin-top: 1em;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+main section:nth-of-type(3) p {
+    font-size: 1.5em;
+}
+
+main section:nth-of-type(4) {
+    color: #fff;
+    background: #B58E0F;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+main section:nth-of-type(4) button {
+    color: #fff;
+    margin: 0;
+    font-size: 1.5em;
+    padding: 0 1em;
+}
+main section:nth-of-type(4) p {
+    font-size: 1.25em;
+}
+
+h4 {
+    font-size: 1.75em;
+    font-weight: 700;
+    padding-top: 0.5em;
+}
+footer p {
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.25em;
+    color: #000;
 }
 
