@@ -1,20 +1,28 @@
 @media screen and (max-width: 600px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
     body section:last-of-type, body section:nth-of-type(2) {
         flex-direction: column;
     }
     body section:last-of-type form {
         width: 100%
     }
-    main .left-to-right article, main .right-to-left article {
-        width: 100%;
+    main .left-to-right article, main section.left-to-right:nth-child(3) article {
+        width: 80%;
         height: 100%;
         padding: 2em;
         border-radius: 3em;
     }
-    main .left-to-right:first-child, main .right-to-left:first-child {
+    main .left-to-right:first-child, main section.left-to-right:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         height: 100%;
-        width: 100%;
-        padding: 2em;
+        width: 80%;
+        padding: 10%;
     }
 
     main, section form label input, section form textarea {
@@ -23,5 +31,9 @@
 
     button {
         display: none;
+    }
+
+    header h1 {
+        font-size: 2em;
     }
 }
