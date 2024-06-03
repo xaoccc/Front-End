@@ -68,7 +68,7 @@ header h3 {
 
 header button {
     background-color: #00D08E;
-    border: none;
+    border: 3px solid #00D08E;
     padding: 0.5rem 1rem;
     font-size: 1rem;
     cursor: pointer;
@@ -76,6 +76,11 @@ header button {
     margin: 1em auto;
     display: block;
     border-radius: 3px;
+}
+
+header button:hover {
+    background: none;
+    border: 3px solid #fff;
 }
 
 header p {
