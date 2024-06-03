@@ -9,6 +9,10 @@ body {
     background-color: #f0f0f0;
 }
 
+h1 {
+    font-family: 'Abril Fatface', 'Times New Roman', Times, serif;
+}
+
 ul {
     list-style-type: none;
 }
@@ -16,4 +20,152 @@ ul {
 a, button {
     text-decoration: none;
     color: inherit;
+}
+
+header, main {
+    max-width: 69rem;
+    margin: 0 auto;
+}
+
+header {
+    padding: 2rem 2rem 20rem 3rem;
+    background-image: url('image/image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header div:first-child {
+    width: 23%;
+    box-shadow: 2px 2px 6px 0px rgb(0, 0, 0);
+    padding: 2em 1em;
+}
+
+header div:first-child p::before {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 2px;
+    background-color: #fff;
+    margin: 1em 0;
+}
+
+header div:last-child {
+    width: 30%;
+    box-shadow: 2px 2px 6px 0px rgb(0, 0, 0);
+    padding: 1.5em 0.5em 0.5em 0.5em;
+    background: linear-gradient(90deg,#9C928A, #CAC7C6);
+    margin: 0 0 0 auto;
+}
+header div:last-child span {
+    font-size: 4em;
+    text-shadow: 1px 1px 1px #000;
+    color: #767575;
+    display: block;
+    margin-left: auto;
+    width: fit-content;
+
+}
+header div:last-child p {
+    text-shadow: 1px 1px 1px #000;
+    color: #fff;
+    margin-top: -2em;
+    text-align: right;
+    line-height: 1.5;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    background-color: #F2F0F3;
+}
+
+.services li {
+    margin: 1em 0;
+    line-height: 1.5;
+}
+.services li i{
+    margin-right: 0.75em;
+}
+.bold {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.bold.italic {
+    font-style: italic;
+    padding: 0.5em 0.25em 0.5em 0.5em;
+}
+
+.left > div {
+    padding: 3.5em 5em 1.5em;
+}
+
+.left h1 {
+    font-size: 2.35em;
+    text-transform: uppercase;
+}
+
+input {
+    background-color: #BAB1AD;
+    color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    border: none;
+    width: 50%;
+    margin: 1.5em 0.5em 0.5em;
+}
+
+input::placeholder {
+    font-size: 0.85rem;
+    color: #fff;
+}
+
+.left button {
+    background-color: #67784D;
+    color: #fff;
+    padding: 1em 2em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.left p {
+    line-height: 2;
+}
+
+hr {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #808080;
+    margin-bottom: 1em;
+}
+
+.left > .contacts {
+    padding: 3.5em 0 1.5em;
+}
+
+.left > .contacts h1, .left > .contacts p, .left > .contacts form {
+    padding: 0 5rem;
+}
+
+
+.big-number {
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 200;
+}
+
+
+.data {
+    padding: 1.5em 6em 1em 2.5em;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #BAB1AD;
 }

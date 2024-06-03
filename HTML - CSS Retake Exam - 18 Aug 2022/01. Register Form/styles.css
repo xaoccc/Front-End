@@ -5,8 +5,12 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mulish', sans-serif;
     background-color: #f0f0f0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -16,4 +20,19 @@ ul {
 a, button {
     text-decoration: none;
     color: inherit;
+}
+
+header, main {
+    max-width: 69rem;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    padding: 2rem 2rem 20rem 3rem;
+}
+
+header div:first-child {
+    display: flex;
+    align-items: center;
 }
