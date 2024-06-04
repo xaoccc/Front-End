@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+
+a, button {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    color: #fff;
+}
+
+header > div:first-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    background-color: #D01919;
+    padding: 1rem 3.5rem;
+    align-items: center;
+    font-size: 1.25em;
+}
+
+header > div:first-of-type ul  {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+header > div:last-of-type {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url('image/fitness-main.jpg');
+    background-size: cover;
+    background-position-y: center;
+}
+
+nav {
+    width: 50%;
+    align-self: end;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+    font-size: 1.15em;
+}
+
+h1 {
+    font-size: 3.5em;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+    margin: 3em 0 1em;
+    text-align: center;
+}
+
+header > div:last-of-type p {
+    text-align: center;
+    font-size: 1.25em;
+    width: 30%;
+}
+header > div:last-of-type button {
+    background-color: #D01919;
+    padding: 0.5em 1em;
+    font-size: 1.1em;
+    margin: 2.5em 0 8em;
+    border-radius: 7px;;
+}
+
