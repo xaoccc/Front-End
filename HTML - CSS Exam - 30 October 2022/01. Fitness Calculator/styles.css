@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a, button {
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    max-width: 84em;
+    margin: 0 auto;
+    border: 1px solid #777;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: 0px 10px 15px 2px #777;
+}
+
+img {
+    width: 50%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 3em;
+    text-align: center;
+    gap: 1.5em;
+    background-color: #F6F7F8;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1.8em;
+}
+
+form > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.gender, .height, .weight {
+    width: 80%;
+    gap: 2em;
+
+}
+.gender > *, .height > *  {
+    width: 100%;
+}
+
+.gender > *, .height > *, .weight  {
+    padding:0.3em;
+    border-radius: 5px;
+    border: 1px solid #777;
+}
+
+.submit {
+    width: 100%;
+    background-color: #05A2D3;
+    color: white;
+    padding: 0.5em;
+    border-radius: 2em;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-top: 2em;
+    cursor: pointer;
+    box-shadow: 0px 10px 15px 2px #777;
+}
+
+.submit:active {
+    box-shadow: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    gap: 4.5em;
+}   
+.buttons button {
+    background-color: #86D862;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 0.75em;
+    width: 100%;
+    font-size: 1em;
+}  
+
+.buttons button:hover {
+    background-color: #E0E0DF;
+
+}
+
+h3 {
+    font-size: 1em;
+}
+
+
+
+
+
