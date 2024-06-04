@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 14px/1.5 Lato, sans-serif
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+@media (orientation: portrait) and (min-height: 680px), screen and (min-height: 680px) {
+    body::before {
+        content: 'The viewport height is larger than 680px or the media type is screen and the orientation is portrait';
+        display: block;
+        background-color: #369;
+        color: #fff;
+        padding: 1em 1.5em;
+        margin-bottom: 2em;
+        border-radius: 0.3em;
+    }
+    
+}
+

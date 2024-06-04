@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 14px/1.5 Lato, sans-serif
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+@media screen and (min-width: 800px){
+    body::before {
+        content: 'The viewport is larger than 800px';
+        display: block;
+        background-color: #369;
+        color: #fff;
+        padding: 1em 1.5em;
+        margin-bottom: 2em;
+        border-radius: 0.3em;
+    }
+    
+}
+
