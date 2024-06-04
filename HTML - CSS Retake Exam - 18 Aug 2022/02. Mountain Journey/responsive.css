@@ -1,0 +1,49 @@
+@media screen and (max-width: 600px) {
+
+    header nav {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    .header-title  {
+        padding-top: 1em;
+    }
+    
+    
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    body > main > section.team-description > div > ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .blog-news ul {
+        flex-direction: column;
+        gap: 2em;
+        margin: 0 2em;
+    }
+
+    body > main > section.team-description > div > ul > li {
+        width: 45%;
+    }
+
+    body > main > section.team-description > div > ul > li > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .choose-us ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
