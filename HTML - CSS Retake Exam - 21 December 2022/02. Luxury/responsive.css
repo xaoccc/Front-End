@@ -1,0 +1,89 @@
+@media screen and (max-width: 600px){
+
+    .div-header {
+        display: none;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .options {
+        padding-top: 2em;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .options article {
+        text-align: center;
+        width: 100%;
+    }
+
+    .blog article img {
+        display: none;
+    }
+
+    #about-blog {
+        width: 90%;
+    }
+
+    .magazine {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .magazine article {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .gallery > article > div {
+        display: none;
+    }
+
+    .magazine-title a {
+        display: none;
+    }
+    .magazine-info {
+        margin-left: 0;
+    }
+
+    .magazine-info img {
+        width: 100%;
+    }
+    .magazine-info * {
+        text-align: center;
+    }
+    .magazine-info button {
+        margin: 20px auto;
+        display: block;
+    }
+
+
+    .magazine-title > h4, .blog-title > h4 {
+        font-size: 1em;
+    }
+    .blog-title span, .blog-title  a {
+        display: none;
+    }
+
+    .magazine-title, .blog-title {
+        padding: 2.5em 0 0 1.25em;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+
+}
