@@ -5,8 +5,63 @@
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
     font-family: 'Inter', sans-serif;
+    background-image: url('image/background.jpg');
+    background-position: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 102em;
+    margin: 3em auto;
+    gap: 2em;    
+}
+
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 1em 1.5em;
+    margin-top: 3em;
+}
+
+article:last-of-type button{
+    margin-top: 2em;
+}
+
+p, button {
+    font-size: 1.25em;
+}
+
+p + p {
+    margin-top: 1.25em;
+}
+
+span {
+    font-weight: bold;
+    font-size: 4.5em;
+}
+
+article {
+    padding: 2.5em;
+    background-color: #fff;
+    height: fit-content;
+}
+
+.price {
+    margin: 2em 0;
+}
+
+small {
+    margin-bottom: 1.75em;
+    display: block;
 }
