@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px){
+    .navigation-nav {
+        display: none;
+    }
+
+    .home-tab-selector-cards-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .home-image-container {
+        display: none;
+    }
+
+    .home-step > span {
+        margin-right: 2rem;
+    }
+
+    .home-top-part, .home-links-container {
+        flex-direction: column;
+    }
+}
