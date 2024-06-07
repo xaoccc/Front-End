@@ -15,15 +15,19 @@ ul {
 
 body {
     font-family: 'Inter', sans-serif;
+    background-color: #F3F5FA;
+    max-width: 100vw;
+}
 
+.header-wrapper {
+    background-color: #fff;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5rem 0;
-    background-color: #fff;
+    padding: 2.5rem 0;    
     width: 76%;
     margin: 0 auto;
 }
@@ -43,19 +47,36 @@ header .login a:hover, header nav ul li a:hover {
     background-color: #ADE2DF;
 }
 
-main section:first-of-type, main section:last-of-type {
+main > section:first-of-type, main > section:last-of-type {
     background-color: #ADE2DF;
-    padding: 8.5rem 8rem 0;
+    padding: 8rem;
+}
+
+h1, h2, h3, p {
+    text-align: center;
 }
 
 h1 {
-    font-size: 4.5em;
-    text-align: center;
+    font-size: 4.5em;    
+}
+h2 {
+    font-size: 3em; 
+    font-weight: 500;   
 }
 
-p {
+p, span, button {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+h5 {
     font-size: 1.25em;
-    text-align: center;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.75em;
+    font-weight: 500;
 }
 
 .buttons {
@@ -72,3 +93,197 @@ p {
     border-radius: 7px;
     font-size: 1.25em;
 }
+
+main > section:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 92rem;
+    margin: 7.5rem auto 6.5rem;
+}
+
+main > section:nth-of-type(2) article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid #ccc;
+    padding: 0 2rem;
+}
+
+main > section:nth-of-type(2) article:last-of-type {
+    border-right: 1px solid #ccc;
+}
+main > section:nth-of-type(2) article p {
+    margin: 2.5rem 0 6rem;
+}
+
+.section-wrapper {
+    background-color: #ADE2DF;
+}
+
+.section-wrapper section {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 79rem;
+}
+
+.image-wrapper {
+    border: 2px dashed #aaa;
+    width: 40%;    
+}
+
+.image-wrapper img {
+    margin: 0 auto;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+}
+
+.section-wrapper section article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 7rem;
+    width: 60%;
+}
+
+.section-wrapper section article p, .section-wrapper section article h2{
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.section-wrapper section article a{
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 1.25em;
+    padding-bottom: 0.25em;
+    display: block;
+    width: fit-content;
+    border-bottom: 1px solid #000;    
+
+}
+
+main > a {
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1.25em;
+    padding: 0.5em 1em;
+    width: fit-content;
+    margin: 2em auto;
+    background-color: #ADE2DF;
+    border-radius: 7px;
+}
+
+main > h2 {
+    margin-bottom: 2em;
+}
+
+main > section:nth-of-type(3) {
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.article-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.article-wrapper article {
+    border-right: 1px solid #ccc;
+    margin: 2em 0;
+    padding: 0 2.5em;
+}
+
+main > section:nth-of-type(3) aside {
+    background-color: #ADE2DF;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-wrapper h5, aside h5{
+    text-align: center;
+    font-size: 1.5em;
+}
+.article-wrapper h2{
+    text-align: left;
+    margin: 1.5rem 0;
+}
+.article-wrapper p{
+    text-align: left;
+}
+.article-wrapper ul {
+    padding: 1.5rem 0;
+    border-top: 1px solid #ccc;
+}
+aside ul {
+    padding: 1.5rem 0;
+}
+.article-wrapper li, aside li{
+    margin: 1em 0;
+    font-size: 1.05rem;
+}
+.article-wrapper button{
+    padding: 1em 0;
+    width: 100%;
+    display: block;
+    margin: 1em auto;
+    background-color: #ADE2DF;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+aside button{
+    padding: 1em 0;
+    width: 100%;
+    display: block;
+    margin: 1em auto;
+    background-color: #000;
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.fa-check {
+    margin-right: 0.5em;
+}
+
+main > section:last-of-type {
+    margin-top: 5rem;
+    padding: 8rem 30%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.5rem 3rem;
+}
+footer a i {
+    font-size: 1.25rem;
+    margin-right: 1rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 14px;
+    } 
+}
+
+@media screen and (max-width: 1050px) {
+    html {
+        font-size: 12px;
+    } 
+}
+
