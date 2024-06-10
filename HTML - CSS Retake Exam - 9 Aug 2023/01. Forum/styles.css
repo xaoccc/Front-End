@@ -49,6 +49,9 @@ article img {
     flex: 0 0 30%;
     flex-direction: column;
 }
+.side-article img{
+
+}
 
 h1 {
     font-size: 5em;
