@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 8px;
+    }
+    .team-description ul, .blog-news ul {
+        flex-wrap: wrap;
+    }
+
+    .blog-news ul .item {
+        flex: 0 0 80%;
+    }
+}
