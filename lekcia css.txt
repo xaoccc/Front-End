@@ -1,0 +1,41 @@
+.field {
+position: relative;
+}
+
+.field input {
+position: absolute;
+top: 0;
+left: 0;
+}
+
+html {
+font: 14px/1.5 'Open Sans';
+}
+
+.field input:required ~ label::after {
+display: inline-block;
+content: '*';
+}
+
+shift+alt - for multiple lines of html
+
+
+img reset:
+
+img {
+display: block;
+width: 100%;
+height: auto;
+}
+
+make the img take the size of the container:
+.img-container {
+overflow: hidden;
+position relative
+}
+
+.img-container img {
+position: absolute;
+height: 100%;
+width: auto;
+}
