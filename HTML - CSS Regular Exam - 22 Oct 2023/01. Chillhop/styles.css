@@ -70,7 +70,7 @@ p {
     color: #000;
 }
 
-.buttons a:hover {
+.buttons a:active {
     color: #fff;
     background-color: #B6416D;
 }
