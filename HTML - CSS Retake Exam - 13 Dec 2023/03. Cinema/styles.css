@@ -1,0 +1,130 @@
+/* Coomon */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 'Ubuntu', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a, img {
+    display: block;
+}
+
+/* Header */
+
+header {
+    padding: 1.5rem 4rem 2rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+nav ul > li > a {
+    padding: 1.5rem 2rem;
+    background-color: #ECECEC;
+    color: #666;
+    font-size: 1.25rem;
+}
+
+.homepage {
+    color: #000;
+    background-color: #56DBB1;
+}
+
+.logo .big {
+    font-size: 4rem;
+    font-weight: bold;
+    border-right: 3px solid #ccc;
+    padding-right: 1.5rem;
+}
+
+.logo .small {
+    margin-left: 2rem;
+    font-size: 1.15rem;
+    color: #888;
+    letter-spacing: 3px;
+}
+
+/* Main */
+main > img {
+    width: 100%;
+    aspect-ratio: 3/1;
+}
+
+section, footer {
+    padding: 6rem 12.5rem;
+}
+
+section p {
+    text-align: center;
+}
+
+.first {
+    background-color: #56DBB1;
+    font-size: 1.45rem;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #353434;
+    color: #fff;
+}
+
+.second article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 25rem;
+}
+
+.icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    background-color: #56DBB1;
+    padding: 0 1.5rem;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+
+}
+
+.second article h3 {
+    font-size: 1.45rem;
+}
+.second article p {
+    opacity: 0.2;
+    font-size: 1.15rem;
+    line-height: 2;
+}
+.second hr {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;  
+    margin: 1.25rem 0;  
+}
+
