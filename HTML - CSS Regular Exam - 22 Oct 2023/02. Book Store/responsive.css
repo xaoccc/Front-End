@@ -1,3 +1,37 @@
 @media screen and (max-width: 600px){
-    
+    .home-header.max-width-container .home-middle{
+        display: none;
+    }
+    .section-container {
+        flex-direction: column;
+    }
+    .home-image6 {
+        width: 100%;
+    }
+    .home-text29 {
+        margin: 2rem 0 16px 0;
+    }
+
+    .blog-post-card-blog-post-card {
+        max-width: unset;
+
+    }
+
+    .category-card-image {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1/1;
+    }
+
+    .category-card-category-card {
+        flex: 1 1 45%;
+    }
+
+    .home-footer1, .home-links-container {
+        flex-direction: column;
+    }
+
+    .home-container09 {
+        order: 10;
+    }
 }
