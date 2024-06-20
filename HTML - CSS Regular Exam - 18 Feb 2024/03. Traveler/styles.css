@@ -17,10 +17,16 @@ ul {
 }
 
 body  {
-    font: 18px/1.5 'Karla', sans-serif;
+    font: 18px/1.4 'Karla', sans-serif;
 }
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
     font-family: 'Cormorant Infant', serif;
+}
+
+a {
+    width: fit-content;
+    font-family: sans-serif;
+    font-size: 16px;
 }
 
 /* Header */
@@ -62,15 +68,130 @@ header h1 {
     text-align: center;
     margin: 2em 0 1em;
 }
-
+p {
+    font-size: 1.25rem;
+}
 header p {
     text-align: center;
-    color: white;
-    font-size: 1.5rem;
+    color: white;    
     width: 45%;
     margin: 0 auto;
 }
 
 /* Main */
+.first, .third {
+    background-color: #F8F0E9;
+}
+.second, .fourth {
+    background-color: #E14747;
+    color: #fff;
+}
+
+h2 {
+    font-size: 4.5rem;
+}
+.first {
+    padding: 2rem 0 10rem;
+}
+.first h2, .first p {
+    width: 63%;
+    margin: 0 auto;
+}
+.first h2 {
+    font-size: 5rem;
+    line-height: 0.8;
+    font-style: italic;
+    margin-top: 1em;
+}
+.second {
+    padding: 5rem 0;
+}
+
+.second .wrapper {
+    width: 18rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.second h5 {
+    font-size: 2rem;
+    margin-bottom: 1.5em;
+}
+
+.third {
+    padding: 4.5rem 0;
+}
+
+.third .wrapper {
+    width: 35rem;
+    margin: 0 auto;
+}
+
+.third img {
+    width: 100%;
+    height: auto;
+}
+.third h2 {
+    text-align: center;
+    margin: 5rem 0 6.5rem;
+}
+.third a {
+    padding: 0.5rem 1.5rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;    
+}
+.read-more {
+    margin: 4rem 0;
+}
+
+.all-articles {    
+    margin: 0 auto;
+}
+
+.fourth {
+    text-align: center;
+    padding: 8rem 0 5rem;
+}
+
+.fourth .wrapper {
+    width: 58rem;
+    margin: 0 auto;
+}
+
+.fourth p {
+    margin: 7rem 0 5rem;
+}
+.fourth a {
+    background-color: #FAD87A;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    color: #000;
+    font-family: sans-serif;
+}
 
 /* Footer */
+
+footer {
+    background-color: #352B2A;
+    color:#fff;
+    padding: 3rem 0 4rem 9rem;
+    
+}
+
+footer img {
+    width: 4rem;
+    margin-bottom: 3rem;
+}
+
+footer p:first-of-type {
+    font-size: 1rem;
+    width: 28rem;
+    margin-bottom: 1.5rem;
+}
+
+.copy {
+    opacity: 0.3;
+    font-size: 0.85rem;
+}
