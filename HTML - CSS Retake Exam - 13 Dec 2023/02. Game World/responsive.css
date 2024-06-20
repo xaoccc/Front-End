@@ -1,0 +1,68 @@
+@media screen and (max-width: 600px){
+    header .row {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .tm-gallery-page {
+        margin: 0;
+    }
+    .tm-gallery-item {
+        max-width: 100%;
+    }
+
+    .tm-gallery {
+        margin-left: 0;
+    }
+
+    .img-fluid, .tm-description-figure, .tm-cta-section {
+        width: 100%;
+    }
+
+    figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-fluid.tm-gallery-img, figcaption {
+        width: 80%;
+    }
+
+    figcaption h4 {
+        padding-left: 3rem;
+    }
+
+    .tm-section-title {
+        margin-left: 0;
+    }
+    .game-world-header.container.placeholder, .parallax-window {
+        height: 200px;
+    }
+
+    .tm-nav-ul {
+        justify-content: center;
+    }
+
+    .tm-site-description {
+        margin-left: -1rem;
+    }
+    .tm-site-title {
+        margin-left: 1rem;
+    }
+
+    .col-md-6.col-12 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .col-12.text-center.tm-section-title {
+        margin: 0 auto 30px;
+    }
+
+    .col-lg-3.col-md-4.col-sm-6.col-12.tm-gallery-item {
+        padding: 0;
+    }
+}
