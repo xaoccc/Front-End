@@ -86,12 +86,19 @@ section p {
     font-size: 1.45rem;
 }
 
-.second {
+.second, .fourth {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #353434;
     color: #fff;
+    padding: 11rem 12.5rem 10rem;
+}
+
+.second article p, .fourth article p {
+    opacity: 0.2;
+    font-size: 1.25rem;
+    line-height: 2;
 }
 
 .second article {
@@ -103,28 +110,65 @@ section p {
 }
 
 .icon {
-    font-size: 4rem;
+    font-size: 4.5rem;
     margin-bottom: 1.5rem;
     background-color: #56DBB1;
-    padding: 0 1.5rem;
+    width: 8.75rem;
     aspect-ratio: 1/1;
     display: flex;
     align-items: center;
-
+    justify-content: center;
 }
 
-.second article h3 {
+h3 {
     font-size: 1.45rem;
 }
-.second article p {
-    opacity: 0.2;
-    font-size: 1.15rem;
-    line-height: 2;
-}
+
 .second hr {
     width: 100%;
     height: 2px;
     background-color: #fff;  
     margin: 1.25rem 0;  
+}
+.third h1, .third h3, .third a {
+    text-align: center;
+}
+.third h1 {
+    font-size: 2.9rem;
+    color: #5F5F5F;
+}
+.third h3 {
+    color: #C3BCB8;
+}
+
+.third a {
+    background-color: #974D1B;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #1B9772;
+    text-align: center;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+footer span {
+    opacity: 0.5;
 }
 
