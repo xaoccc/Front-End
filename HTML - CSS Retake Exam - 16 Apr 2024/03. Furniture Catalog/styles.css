@@ -93,7 +93,7 @@ h3 {
 
 .first, .third {
     background-color: #60ACC1;
-    padding: 3.5rem 0;
+    padding: 2.5rem 0;
 }
 section, footer {
     text-align: center;
@@ -163,6 +163,12 @@ section p {
 .third .wrapper img{
     width: 29%;
     box-shadow: 0 0 20px #222;
+}
+.third p{
+    font-style: italic;
+}
+.third h3{
+    margin: 0;
 }
 
 .fourth {
