@@ -36,7 +36,9 @@ input, label {
     display: block;
     font-size: 1.5rem;
 }
-
+input {
+    color: #ccc;
+}
 input:required ~ label::after {
     content: '*';
     color: #1AB188;
@@ -44,8 +46,8 @@ input:required ~ label::after {
     margin-left: 0.25rem;
 }
 
-input:focus ~ label {
-    display: none;
+input:focus ~ label, input:not(:placeholder-shown) ~ label {
+    opacity: 0;
 }
 
 h1, nav, button {
