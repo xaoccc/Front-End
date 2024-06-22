@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="styles.css">
-    
 </head>
+
 <body>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
-        <label for="age">Age:</label>
-        <input type="number" id="age" name="age">
-    </form> 
+    
+    <form>   
+        <h1>Radio</h1>   
+        <div class="field">
+            <input type="radio" id="option1" name="option1" value="option1">
+            <label for="option1">Option 1</label>
+        </div>
+        <div class="field">
+            <input type="radio" id="option2" name="option2" value="option2">
+            <label for="option2">Option 2</label>
+        </div>
+        
+        <h1>Checkbox</h1>
+        <div class="field">
+            <input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1">
+            <label for="checkbox1">Checkbox 1</label>
+        </div>
+        <div class="field">
+            <input type="checkbox" id="checkbox2" name="checkbox2" value="checkbox2">
+            <label for="checkbox2">Checkbox 2</label>
+        </div>
+
+    </form>
 </body>
+
 </html>
