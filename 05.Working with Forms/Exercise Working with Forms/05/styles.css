@@ -6,12 +6,100 @@
 
 body {
     font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
 }
 
-ul {
-    list-style-type: none;
+h1 {
+    font-size: 1.25rem;    
 }
-a {
-    text-decoration: none;
-    color: inherit;
+
+form {
+    width: 30.625rem;
+    margin: 0 auto;
+    padding: 2rem 2.5rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    padding: 2rem 2rem 2rem 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-top: 2.5rem;
+}
+
+legend, input, label, h2 {
+    font-weight: bold;
+    font-size: 0.9rem;  
+    color: #555;
+}
+
+legend {      
+    padding: 0 1rem;
+}
+
+input, label, h2 {
+    display: block;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+
+input {
+    background-color: none;
+    padding: 0.75rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 1rem;
+}
+
+input:focus ~ label, input:not(:placeholder-shown) ~ label {
+    opacity: 0;
+}
+
+small {
+    margin-bottom: 2rem;
+    color: #666;
+    font-style: italic ;
+    margin-left: 1rem;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.field label {
+    position: absolute;
+    top: 1rem;
+    left: 0;   
+
+}
+
+
+.field input:required ~ label::after {
+    content: '*';
+    color: red;
+    display: inline-block;
+    margin-left: 0.25rem;
+}
+
+input[type="submit"] {
+    background-color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 1.25rem;
+    cursor: pointer;
+    margin: 2rem 0 0;
+}
+
+input[type="date"] {
+    padding-left: 0;
+
 }
