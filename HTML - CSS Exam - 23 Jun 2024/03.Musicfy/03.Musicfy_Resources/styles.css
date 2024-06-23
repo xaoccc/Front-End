@@ -1,0 +1,298 @@
+/* Common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li, a {
+    display: block;    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #000;
+    color: #fff;    
+}
+
+header a:hover {
+    color: rgb(29,185,84);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+nav img {
+    height: 3rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    list-style-type: none;
+}
+
+ p, td, ol > li {
+    font-size: 1.25rem;
+ }
+
+ h1 {
+    text-align: center;
+    font-size: 3.15rem;
+}
+
+ h2 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.45rem;
+}
+
+/* Main */
+/* First Section */
+.first {
+    background-image: url('images/music.png');
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 4rem;
+    background-position-y: bottom;
+    background-size: 45% 92%;
+}
+
+
+.wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(29,185,84);
+    z-index: -1;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 79.375rem;
+    margin: 0 auto;
+    gap: 18%;
+    padding-bottom: 7rem;
+}
+
+
+.first article {
+    padding-top: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    overflow: hidden;
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+body > main > section.first > div > div > article > h2 {
+    color: rgb(84,84,109);
+}
+
+
+.wrapper > h3 {
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.first article ul {
+    margin: 1.5rem 4rem 0.5rem;
+}
+
+.first > div > div > article:nth-child(1) > h2 {
+    padding-bottom: 2.25rem;
+}
+
+.first article ul li{
+    display:list-item;
+    list-style-type: circle;
+    padding-bottom: 1rem;
+    font-size: 1.25rem;
+    color: #444;
+}
+
+.first article > a {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.75rem 2rem;
+    background-color: rgb(29,185,84);
+    color: #fff;
+    border-radius: 2rem;
+    font-size: 1.25rem;
+
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.price p {
+    flex: 1 1 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.75rem 0;
+}
+
+.first article:first-of-type .price p:first-of-type {
+    border-right: 1px solid #fff;
+}
+
+/* Second Section */
+.second {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 98.75rem;
+    margin: 4rem auto 4rem 6rem;
+    gap: 4rem;
+}
+
+.second ol {
+    padding-top: 0.5rem;
+}
+
+.second ol li {
+    display:list-item;
+    list-style-position: inside;
+    padding: 1rem 1.5rem 0 0;
+}
+
+.second article {
+    width: 70%;
+}
+
+.second img {
+    width: 30%;
+}
+
+/* Third Section */
+
+
+.third > p {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.third table {
+    display: flex;
+    flex-direction: column;
+    max-width: 78rem;
+    margin: 0 auto;
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+
+.third table tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+.third table tr td {
+    padding: 0.35rem 0.75rem;
+    border: none;
+}
+.third table tr td img{
+    width: 1.6rem;
+
+}
+
+.third table tr td:first-of-type {
+    flex: 1 1 100%;
+}
+.third table tr td:nth-of-type(2), .third table tr td:nth-of-type(3) {
+    flex: 1 1 16%;
+    font-size: 2rem;
+
+}
+.third table tr td:nth-of-type(3) {
+    margin-left: 2rem;
+}
+.third table tr td:nth-of-type(2) {
+    margin-left: 4rem;
+}
+
+.third table tr:nth-child(odd) {
+    background-color: #ccc;
+}
+.third table tr:nth-child(even) {
+    background-color: rgb(129,216,160);
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+@media (max-width: 1000px) {
+    .second {
+        flex-direction: column;
+    }
+
+    .second > article {
+        width: 100%;
+    }
+    .second > img {
+        width: 50%;
+    }
+
+    .articles {
+        gap: 2rem;
+    }
+}

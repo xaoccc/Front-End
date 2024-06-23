@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gochi Hand', sans-serif;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+
+section {
+    max-width: 62.5rem;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 1rem;
+    
+    border: 1px solid #ccc;
+}
+
+header {
+    padding: 22.5rem 1.5rem 0.75rem 1.5rem;
+    background-image: url('images/nature.jpg');
+    background-size: cover;
+    text-align: center;
+    border-radius: 1rem 1rem 0 0;
+    margin: 1.5rem;
+}
+
+.text {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0.5rem;
+
+}
+
+hr {
+    margin-top: 1.5rem;
+    border-top: 1px solid #ccc;
+}
+
+.address {
+    padding: 1.5rem 0 1.5rem 3rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.15rem;
+    color:#666;
+    padding: 0.5rem 0;
+}
+
